@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SmartBMS)(type KiCad)(uri ${KIPRJMOD}/SmartBMS.pretty)(options "")(descr ""))
+  (lib (name logos_pcb)(type KiCad)(uri ${KIPRJMOD}/logos_pcb.pretty)(options "")(descr ""))
+)
