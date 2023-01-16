@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\augus\Documents\Proyectos\CanBus-Radio-VAG\Electronic\PCB\CanBus-Radio-VAG-V1.0\CanBus-Radio-VAG.kicad_sch</source>
+    <date>15/01/2023 18:12:46</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CANBUS Radio VAG Controller</title>
+        <company>Augusto Samuel Hernández Martín</company>
+        <rev>1.0</rev>
+        <date>2023-01-14</date>
+        <source>CanBus-Radio-VAG.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006057b79e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060573b00</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>27pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006052448d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>27pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060524f2a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>12-22 pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606c0656</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>12-22pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606c0650</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060314bc0</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L_Pad1.25x1.05mm_HandSolder</footprint>
+      <libsource lib="CanBus-Radio-VAG-rescue" part="CP1-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006415f5c1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_SMD:D_SMA_Handsoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000641f78f5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006403d522</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000641755ee</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>fuse 1A</value>
+      <footprint>Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="Fuse_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000624f93ad</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606f20a4</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606f33c1</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606f462d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606f56ee</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064402b9b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ICSP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="Conn_02x03_Top_Bottom-Connector_Generic-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c30004</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CAR</value>
+      <footprint>Connector_JST:JST_XH_S8B-XH-A-1_1x08_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064401650</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>CAN-TERM-JUMPER</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000063ed69bb</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>ON-LED</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000064186d2f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>120R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000604b9df2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006055509a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006402ca7b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006157f95f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000607f513e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000641755e8</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push-Switch</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
+      <libsource lib="CanBus-Radio-VAG" part="SW_Push-Switch" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006421e4a8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP2515-xSO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf</datasheet>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MCP2515-xSO-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000604832f3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TJA1050T</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn65hvd1050.pdf</datasheet>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="TJA1050T-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060484a14</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ATmega328P-PU</value>
+      <footprint>SmartBMS:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="ATmega328P-PU-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606b1f47</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MP2307</value>
+      <footprint>SmartBMS:MP2307</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="MP2307-SmartBMS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616d5f37</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="Crystal_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000604fba68</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>16MHz</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <libsource lib="Nodo_BMS_1_1-rescue" part="Crystal_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CanBus-Radio-VAG.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000606c063e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CanBus-Radio-VAG" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CanBus-Radio-VAG-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="ATmega328P-PU-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega328P-PU-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+        <field name="Footprint">SmartBMS:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="bidirectional"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="bidirectional"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="Conn_02x03_Top_Bottom-Connector_Generic-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Top_Bottom-Connector_Generic-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="Crystal_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+        <field name="Footprint">SmartBMS:Crystal_HC49-4H_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="Fuse_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+        <field name="Footprint">Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="MCP2515-xSO-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2515-xSO-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXCAN" type="output"/>
+        <pin num="2" name="RXCAN" type="input"/>
+        <pin num="3" name="CLKOUT/SOF" type="output"/>
+        <pin num="4" name="~{TX0RTS}" type="input"/>
+        <pin num="5" name="~{TX1RTS}" type="input"/>
+        <pin num="6" name="~{TX2RTS}" type="input"/>
+        <pin num="7" name="OSC2" type="output"/>
+        <pin num="8" name="OSC1" type="input"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="~{RX1BF}" type="output"/>
+        <pin num="11" name="~{RX0BF}" type="output"/>
+        <pin num="12" name="~{INT}" type="output"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SI" type="input"/>
+        <pin num="15" name="SO" type="output"/>
+        <pin num="16" name="~{CS}" type="input"/>
+        <pin num="17" name="~{RESET}" type="input"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="MP2307-SmartBMS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP2307-SmartBMS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V_in+" type="power_in"/>
+        <pin num="2" name="V_in-" type="power_in"/>
+        <pin num="3" name="V_out+" type="power_out"/>
+        <pin num="4" name="V_out-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad-Mechanical-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nodo_BMS_1_1-rescue" part="TJA1050T-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TJA1050T-SmartBMS-Nodo_BMS_1_0-rescue-Nodo_BMS_1_0-rescue-Nodo_BMS_1_1-rescue</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VREF" type="passive"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CanBus-Radio-VAG">
+      <uri>C:\Users\augus\Documents\Proyectos\CanBus-Radio-VAG\Electronic\PCB\CanBus-Radio-VAG-V1.0/CanBus-Radio-VAG.lib</uri>
+    </library>
+    <library logical="CanBus-Radio-VAG-rescue">
+      <uri>C:\Users\augus\Documents\Proyectos\CanBus-Radio-VAG\Electronic\PCB\CanBus-Radio-VAG-V1.0/CanBus-Radio-VAG-rescue.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Nodo_BMS_1_1-rescue">
+      <uri>C:\Users\augus\Documents\Proyectos\CanBus-Radio-VAG\Electronic\PCB\CanBus-Radio-VAG-V1.0/Nodo_BMS_1_1-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="AREF" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="V_out+" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/MISO">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SO" pintype="output"/>
+      <node ref="U3" pin="16" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/MOSI">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="SI" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/MULT_1">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/MULT_2">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/RESET">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/SCK">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SCK" pintype="input"/>
+      <node ref="U3" pin="17" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/SS_MCP">
+      <node ref="U1" pin="16" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U3" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="CANH">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="CANL">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="S" pintype="input"/>
+      <node ref="U3" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="V_in-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V_out-" pintype="power_out"/>
+    </net>
+    <net code="13" name="MCP_INT">
+      <node ref="U1" pin="12" pinfunction="~{INT}" pintype="output"/>
+      <node ref="U3" pin="32" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OSC2" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OSC1" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="V_in+" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="RX">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="RXCAN">
+      <node ref="U1" pin="2" pinfunction="RXCAN" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="28" name="TX">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="TXCAN">
+      <node ref="U1" pin="1" pinfunction="TXCAN" pintype="output"/>
+      <node ref="U2" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="CLKOUT/SOF" pintype="output+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="~{TX0RTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="~{TX1RTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="~{TX2RTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="~{RX1BF}" pintype="output+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="~{RX0BF}" pintype="output+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="VREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="PD4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U3-Pad9)">
+      <node ref="U3" pin="9" pinfunction="PD5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U3-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PD6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PD7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="ADC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U3-Pad22)">
+      <node ref="U3" pin="22" pinfunction="ADC7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U3-Pad23)">
+      <node ref="U3" pin="23" pinfunction="PC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="PC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="PC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="PC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="PC4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U3-Pad28)">
+      <node ref="U3" pin="28" pinfunction="PC5" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name CanBus-Radio-VAG)(type Legacy)(uri ${KIPRJMOD}/CanBus-Radio-VAG.lib)(options "")(descr ""))
-  (lib (name Nodo_BMS_1_1-rescue)(type Legacy)(uri ${KIPRJMOD}/Nodo_BMS_1_1-rescue.lib)(options "")(descr ""))
+  (lib (name "CanBus-Radio-VAG")(type "Legacy")(uri "${KIPRJMOD}/CanBus-Radio-VAG.lib")(options "")(descr ""))
+  (lib (name "Nodo_BMS_1_1-rescue")(type "Legacy")(uri "${KIPRJMOD}/Nodo_BMS_1_1-rescue.lib")(options "")(descr ""))
+  (lib (name "CanBus-Radio-VAG-rescue")(type "Legacy")(uri "${KIPRJMOD}/CanBus-Radio-VAG-rescue.lib")(options "")(descr ""))
 )
