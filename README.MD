@@ -1,4 +1,4 @@
-# CAN BUS interface for powering up the DSP/Sound System Amplifier
+# CAN BUS interface for powering up the DSP/Sound System Amplifier for SKODA, VOLKSWAGEN, AUDI AND SEAT vehicules with non original radios
 
 System for switching on original speakers amplifier and DSP with CAN BUS control.
 
