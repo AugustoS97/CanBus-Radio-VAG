@@ -1,14 +1,16 @@
 # CAN BUS interface for powering up the DSP/Sound System Amplifier
 
-System for switching on power plants or active loudspeaker power supply stages (DSP) with CAN BUS control.
+System for switching on original speakers amplifier and DSP with CAN BUS control.
 
-Tested in a Skoda Octavia 1Z (year 2005) Edition 100 with standard Audience radio (6-CD changer included) and 12-speaker Sound system with active DSP controlled by CAN BUS (model 1Z0 035 456).
+Tested in a Skoda Octavia 1Z (year 2005) Edition 100 with Audience radio (6-CD changer included) and 12-speaker Sound system with active DSP controlled by CAN BUS (model 1Z0 035 456).
 
-![DSP Skoda](/Images/DSP-Skoda.jpeg)
+![Octavia](/Images/Skoda-100.jpg "Skoda Octavia Edition 100 (Model tested)")
 
-![DSP Skoda TOP](/Images/DSP-Skoda-2.jpeg)
+![DSP Skoda](/Images/DSP-Skoda.jpeg "DSP Picture")
 
-![Original radio Audience](/Images/Audience-radio.jpg)
+![DSP Skoda TOP](/Images/DSP-Skoda-2.jpeg "DSP TOP Picture")
+
+![Original radio Audience](/Images/Audience-radio.jpg "Original Car Radio")
 
 ## Solution provided
 
@@ -33,27 +35,30 @@ This interface enables the following functions:
 
 The PCB designed has a JST XH 2.54 connector with 8 pins to connect to the radio and car wires. Also the interface has a ICSP and Serial connection to program and debug.
 
-#### 3D Model
-
-The 3D model of the PCB is as follow:
-
-![PCB TOP](/Images/PCB-render-top.png)
-
-![PCB BOT](/Images/PCB-render-bottom.png)
-
-![PCB SIDE](/Images/PCB-render-side.png)
-
-![PCB OTHER SIDE](/Images/PCB-render-other-side.png)
-
 #### Electronic eschema
 
 The connection eschema and PCB design is the following:
 
 ![Eschema](/Images/PCB_eschema.png)
 
+#### PCB Designed
+
+The 3D model of the PCB is as follow:
+
+![PCB TOP](/Images/PCB-render-top.png)
+
+
+![PCB SIDE](/Images/PCB-render-side.png)
+
 ### Working in vehicule
 
+It has been tested in my Skoda Octavia with an Android chineese radio, and using the module developed it is possible to use the original amplifier with the original soundsystem. Without this CAN Controller it is not possible to power on the DSP, so is impossible to get sound by the speakers. 
+
+Here is possible to see some pictures of the process:
+
 ![Making some wires](/Images/Skoda-cables.jpg)
+
+- Work in progress.
 
 ## In-vehicle wiring diagram with any radio
 
@@ -73,10 +78,19 @@ To load the code on the developed board, an ISP programmer and the Arduino IDE m
 
 ## BOM for PCB
 
+It is possible to find the BOM with the LCSC reference [here](/Electronic/PCB/CanBus-Radio-VAG-V1.0/ASSEMBLY/CanBus-Radio-VAG-V1.0-BOM.xlsx).
+
+Also, the GERBER file for one PCB and for a panel (panelizing the order, you can reduce the cost) is available [here](/Electronic/PCB/CanBus-Radio-VAG-V1.0/GERBER/CanBus-Radio-VAG-V1-Gerber.zip).
 
 ## Extra functions
 
 To activate the front sensors from the vehicle's parking button, the power pin of the parking button connector must be connected to the reverse signal from the camera. It is recommended that a 1N4007 diode is used to prevent current flowing back to the button from the radio or from the button to the CAN BUS module.
+
+Here you can see an scheme of this connection.
+
+## Buy the CAN Controller
+
+If you want to buy a CAN Controller to enable your DSP and use the original sound system with non-stock radios in Volkswagen, Audi, Skoda and Seat, you can contact with me by email (augustosamuelhdezmartin@gmail.com) or you can buy it in E-bay here.
 
 ## Links of interest
 
