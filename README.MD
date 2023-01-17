@@ -92,6 +92,10 @@ Here you can see an scheme of this connection.
 
 If you want to buy a CAN Controller to enable your DSP and use the original sound system with non-stock radios in Volkswagen, Audi, Skoda and Seat, you can contact with me by email (augustosamuelhdezmartin@gmail.com) or you can buy it in E-bay here.
 
+## Other tools
+
+Also there is a [folder](/Arduino/tools/CanHacker/) with the CAN HACKER software and the code to upload to Arduino to use a MCP2515 module + Arduino Nano as a CAN BUS sniffer and get all the message in the PC using the CAN HACKER software. With this method I could find the radio messages, so I could create this CAN BUS interface.
+
 ## Links of interest
 
 Some interesting links:
