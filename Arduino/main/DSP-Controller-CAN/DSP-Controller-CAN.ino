@@ -12,7 +12,8 @@
 MCP_CAN CAN0(10);     // Set CS to pin 10
 
 void setup(){
-
+  pinMode(3, OUTPUT); //Config the output for the status LED
+  digitalWrite(3, HIGH); //Power on the LED
   Serial.begin(115200); //Serial COM to debug
 
   // Initialize MCP2515 running at 8MHz with a baudrate of 100kb/s and the masks and filters disabled.
@@ -20,12 +21,16 @@ void setup(){
 
   if(CAN0.begin(MCP_ANY, CAN_100KBPS, MCP_8MHZ) == CAN_OK){
     Serial.println("MCP2515 Initialized Successfully!");
+    digitalWrite(3, LOW); //Power off the RED LED
   }
 
   else{ //If there is an error initializing  interface, wait for a reset here.
     Serial.println("Error Initializing MCP2515...");
     while(true){
-      delay(10);
+      digitalWrite(3, HIGH);
+      delay(100);
+      digitalWrite(3, LOW);
+      delay(100);
     }
   }
 
@@ -40,9 +45,10 @@ void loop(){
   // Data: 0x03, 0x00, 0x00, 0x00, 0x00, 0x00
 
   unsigned char stmp0[6] = {0x03, 0x00, 0x00, 0x00, 0x00, 0x00};
-
+  digitalWrite(3, HIGH); //Power on the LED
   byte sndStat0 = CAN0.sendMsgBuf(0x507, 0, 6, stmp0);
-
-  delay(5000);   // send data every 5000ms
-
+  delay(100); //Wait 100 ms to power-off
+  digitalWrite(3, LOW); //Power off the LED
+  delay(4900);   // send data every 5000ms
+  
 }
